@@ -5,3 +5,22 @@
 文字颜色设置 color
 a标签下划线去除 text-decoration：none
 
+清除浮动
+清除浮动带来的影响
+父子级标签，子级浮动，父级没有高度，后面的标准流盒子会受影响
+
+
+清除浮动的方法
+1、直接设置父元素搞度
+2、给添加的块级元素设置clear：both
+
+class属性值 clearfic
+3、单伪元素清除法
+
+.clearfic::after{
+cibtebtL'';
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
