@@ -24,3 +24,5 @@ clear:both;
 height:0;
 visibility:hidden;
 }
+
+transparent：透明
