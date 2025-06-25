@@ -28,3 +28,7 @@ visibility:hidden;
 transparent：透明
 input焦点框取消：
 outline：none
+
+设置placeholder样式：
+input::placeholder{
+}
