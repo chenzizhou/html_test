@@ -32,3 +32,9 @@ outline：none
 设置placeholder样式：
 input::placeholder{
 }
+
+css精灵：
+通过背景图+偏移对一张图片进行局部显示，一张图片解决多张图片下载
+
+字体图标：
+https://www.iconfont.cn/
