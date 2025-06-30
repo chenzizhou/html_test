@@ -12,6 +12,9 @@
     ul{
         list-style: none;
     }
+    a{
+        text-decoration: none;
+    }
 
     .main {
         height: 900px;
@@ -49,10 +52,16 @@
         width: 10%;
         background-color: green;
     }
-
+    .bannar .menu a{
+        margin-left: 1%;
+    }
     .bannar .content {
         width: 90%;
         background-color: pink;
+    }
+    .bannar .content .tag{
+        height: 5%;
+        border: solid;
     }
 </style>
 <body>
@@ -69,7 +78,14 @@
                 <li><a href="#">系统设置</a></li>
             </ul>
         </div>
-        <div class="content">内容</div>
+        <div class="content">
+            <div class="tag">
+                <span>标签1</span>
+            </div>
+            <div class="info">
+                表格内容
+            </div>
+        </div>
     </div>
 
 </div>
