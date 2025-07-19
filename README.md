@@ -43,3 +43,27 @@ flex布局  弹性布局
 让父盒子里面的元素变成行内块元素
 
 
+
+异步请求
+1、用第三方插件，axios构造函数 对XMLHttpRequest的封装
+axios（{
+url：'请求地址'，
+method:'请求方法（put、delete、get、post）'，
+params：'查询参数和get配和使用',
+data:'请求体和post配合使用'
+}）.then((result)=>{
+//回调函数，处理响应,返回结果是对象
+})
+
+2、浏览器自带对象XMLHttpRequest构造函数
+//创建XMLHttpRequest对象
+xhr=new XMLHttpRequest()
+//2、配置请求方法和请求url地址
+xhr.open('请求方法'，'url')
+//3、监听loadend事件，接受响应结果
+xhr.addEventListener('loadend',()=.{
+//返回结果是json字符串
+console.log(xhr.response)
+JSON.parse(xhr.response)
+})
+
