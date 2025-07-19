@@ -66,4 +66,7 @@ xhr.addEventListener('loadend',()=.{
 console.log(xhr.response)
 JSON.parse(xhr.response)
 })
+//发送请求
+xhr.send()  
+xhr.send(请求体)
 
